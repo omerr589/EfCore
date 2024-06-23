@@ -19,9 +19,8 @@ namespace DbFirst.DAL
 
             Configuration = builder.Build();
 
-            OptionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-
-            OptionsBuilder.UseSqlServer(Configuration.GetConnectionString("SqlCon"));
+            //OptionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
+            //OptionsBuilder.UseSqlServer(Configuration.GetConnectionString("SqlCon"));
         }
 
     }
