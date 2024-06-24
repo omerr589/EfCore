@@ -10,6 +10,6 @@ using (var _context = new AppDbContext())
 
     procuts.ForEach(p =>
     {
-        Console.WriteLine($"{p.Id} : {p.Name} : {p.Price}");
+        Console.WriteLine($"{p.Id} - Name: {p.Name} Price: {p.Price} Stock: {p.Stock}");
     });
 }
